@@ -1,0 +1,46 @@
+body {
+    background-image: url("background.jpg");
+}
+
+.sounds {
+    margin: 20px;
+    padding: 20px;
+}
+
+
+button {
+    border-color: rgb(238, 141, 112);
+    color: rgb(247, 112, 58);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: initial;
+     margin: 20px 130px;
+    
+}
+
+img {
+    width: 7cm;
+    margin: 0 40px;
+}
+
+.back {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 150px auto;
+    width: 30cm;
+    box-shadow: rgb(247, 224, 224) 0 0 20px;
+    border: 2px solid #aaa;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: rgb(250, 139, 95);
+}
+
+
+
+
+
+

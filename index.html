@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sound Board</title>
+</head>
+<body>
+    <div class="back">
+       <h1>Sound Board</h1>  
+    <section class="sounds">
+           <a href=""><img src="cannon.jpg" alt="Cannon"></a>     
+           
+           <a href=""><img src="jet.jpg" alt="Jet"></a>    
+           
+           <a href=""><img src="storm.jpg" alt="Storm"></a>   
+    </section>
+    <section>
+           <button onclick="Cannon()">Cannon</button>   
+           <button onclick="Jet()">Jet</button>
+           <button onclick="Storm()">Storm</button>
+    </section>
+    </div>
+    <audio id="c1" src="cannonaudio.wav"></audio>
+    <audio id="j1" src="jetaudio.wav"></audio>
+    <audio id="s1" src="stormaudio.wav"></audio>
+    <script src="soundboard.js"></script>
+</body>
+</html>
